@@ -1,6 +1,6 @@
 script {
 use 0x1::NonFungibleToken;
-use 0x1::TestNft::TestNft;
+use 0x2::TestNft::TestNft;
 use 0x1::Hash;
 fun main(account: signer,to_addr:address) {
     let input = b"input";
